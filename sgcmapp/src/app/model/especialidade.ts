@@ -1,4 +1,4 @@
 export type Especialidade = {
-    id: number,
+    id: number;
     nome: string;
 }

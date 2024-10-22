@@ -3,11 +3,11 @@ import { Paciente } from "./paciente";
 import { Profissional } from "./profissional";
 
 export type Atendimento = {
-    id:number,
-    data:string,
-    hora:string,
-    status:string,
-    convenio:Convenio,
-    paciente:Paciente,
-    profissional:Profissional;
+    id: number;
+    data: string;
+    hora: string;
+    status: string;
+    convenio: Convenio;
+    paciente: Paciente;
+    profissional: Profissional;
 }
