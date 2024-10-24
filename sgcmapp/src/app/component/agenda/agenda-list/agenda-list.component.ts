@@ -36,7 +36,7 @@ export class AgendaListComponent implements ICrudList<Atendimento> {
         .filter(item => {
           let data = new Date().setHours(0, 0, 0, 0);
           let hoje = new Date(data).toISOString().split("T")[0];
-          return item.data >= hoje;
+          return item.data = hoje;
         })
       }
     });
